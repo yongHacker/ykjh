@@ -1,0 +1,24 @@
+
+HongCMS中英文网站系统安装方法：
+
+注: 如果您希望在本地计算机安装HongCMS而又没有PHP运行环境, 建议安装PHPnow, 简单易用.
+
+1. 设置FTP上传工具的传送模式为"二进制", 否则上传的PHP程序可能会在运行时发生意想不到的错误.
+    如设置FlashFXP：选项 -> 参数设置 -> 打开对话框 -> 传送 -> 在传送模式中选择 "二进制(图像)"
+
+2. 解压程序包后, 使用FTP工具上传到远程服务器网站根目录或某一指定目录如: hongcms/
+
+3. linux类服务器需要将以下目录或文件设置为可写：
+     cache/
+     config/
+     config/settings.php
+     system/backup/
+     uploads/
+
+4. 在浏览器中输入: www.xxx.com/install/ 进行安装
+    如果输入上面的URL后，没有出现安装界面，而是页面错误信息，说明服务器不支持伪静态，需要将根目录
+    和admin目录下的.htaccess文件删除再进行安装.
+
+5. 安装完成后建议删除HongCMS安装目录: install/; 建议使用Firefox进入后台管理，效果最佳.
+
+6. 使用问题或二次开发手册, 请访问闻泰论坛: http://www.weentech.com/bbs/  或 HongCMS开发QQ群：83582843

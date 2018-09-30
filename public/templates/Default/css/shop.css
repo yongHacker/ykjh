@@ -1,0 +1,152 @@
+.cont{
+    width: 1100px;
+    margin: auto;
+}
+.city{
+    width:1100px;
+    margin:20px auto;
+}
+.city>select{
+    width:528px;
+    border:1px solid #ccc;
+    height:36px;
+    color:#333;
+}
+.city-cont{
+    position: relative;
+    width: 100%;
+    display: table;
+    padding: 40px 0;
+    background: #f2f2f2;
+}
+.city-cont .shop-list-left{
+    float: left;
+    width: 1020px;
+    padding: 0 40px;
+    display: table;
+
+}
+.city-cont .hr{
+    position: absolute;
+    width:2px;
+    top:40px;
+    bottom: 40px;
+    left:50%;
+    background: #e5e5e5;
+}
+.city-cont .shop_li{
+    width:430px;
+    float:left;
+    height:70px;
+    padding: 0 80px 0 0;
+}
+.city-cont .shop_li:nth-child(2n){
+    padding:0 0 0 80px ;
+}
+.city-cont .shop_li span{
+    width:100%;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color:#666;
+}
+.shop_li.active span{
+    color:#D02121;
+}
+.shop_li .shop-name{
+    font-weight: bold;
+    font-size:16px;
+    color:#333;
+    margin-bottom: 5px;
+}
+.page{
+    width: 100%;
+    height:36px;
+    background: #f2f2f2;
+    left:0;
+}
+.page-ul{
+    width:100%;
+    height:36px;
+}
+.page-ul>li{
+    display: inline-block;
+    padding:3px 8px;
+    margin-right:10px;
+    border:1px solid #e5e5e5;
+    cursor:pointer;
+}
+.page-ul li.on{
+    background: #DE3C3C;
+    border-color: #DE3C3C;
+    color:#fff;
+}
+.shop-selected{
+    width:100%;
+    padding: 60px 0;
+    margin-top:60px;
+}
+.fullSlide .bd,.fullSlide .bd li{
+    overflow: visible;
+}
+.shop-selected .shop-hd{
+    position: absolute;
+    top:-82px;
+    width:calc(100% - 2px);
+    height:60px;
+    padding: 10px 0;
+    background: #f2f2f2;
+    border:1px solid #e5e5e5;
+    z-index:9;
+}
+.shop-hd .left{
+    float: left;
+    text-align: left;
+    width:800px;
+    height:60px;
+}
+.shop-hd .icon-shop1,.shop-area .icon-shop1{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background: url("../images/shop1.png") no-repeat;
+    background-size:100%;
+    margin:0 4px -4px -4px;
+}
+.shop-hd .icon-shop2{
+    display: inline-block;
+    width:30px;
+    height:30px;
+    background: url("../images/shop2.png") no-repeat;
+    background-size:100%;
+    margin-bottom: -10px;
+}
+.shop-hd .right{
+    float: left;
+    width: 250px;
+    height:60px;
+    line-height: 60px;
+    text-align: right;
+}
+.shop-hd span{
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    color:#666;
+    text-indent: 30px;
+}
+.shop-hd span:first-child{
+    line-height: 30px;
+    font-size: 18px;
+    color:#333;
+    font-weight: bold;
+    margin-bottom: 5px ;
+}
+.shop-selected img{
+    width: 100%;
+}
+.shop_li a:hover .shop-name{
+    color:#DE3C3C;
+}

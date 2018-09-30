@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+
+.flsm{padding: 10px 20px;}
+.flsm dt{font-size: 16px;color: #315a8b;line-height: 36px;font-weight: bold;}
+.flsm dt em{display:inline-block;line-height:24px;width:24px;text-align:center;background:url(../bg/help/dot.png) no-repeat;font-weight: normal;color: #fff;margin-right: 10px;}
+.flsm dd{line-height: 36px;padding-bottom: 10px;}
+.flsm dd p{text-indent: 28px;}
+
+.helpRegBox{height:218px;}
+.helpRegBoxBd{width:1190px;margin:0 auto;padding-top:32px;}
+.helpRegBoxBar{position:relative;width:100%;}
+.helpRegBoxBar dt{position:absolute;top:-20px;left:446px;width:298px;text-align:center;color:#333;}
+.helpRegBoxBar dt span{display:block;width:298px;height:60px;line-height:56px;font-size:18px;text-align:center;color:#999;}
+.helpRegBoxBar dt a{display:inline-block;width:290px;line-height:44px;background-color:#315a8b;font-size:18px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius: 5px;}
+.helpRegBoxBar dt a:link,.helpRegBoxBar dt a:visited{color:#fff;text-decoration:none;}
+.helpRegBoxBar dd{border-bottom:1px solid #e6e6e6;padding-top:62px;}
+
+.user_filesList_content ul li.addFile{ background-color:#f5f5f5; border:1px dashed #d0d0d0; text-align:center; }
+.user_filesList_content ul li.addFile input{ cursor: pointer; height:98px; width:98px; opacity: 0; position: absolute; top: 0; left:0; }
+.user_filesList_content ul li.addFile a{ display:block; height:98px;line-height:98px;font-size:54px;}
+.user_filesList_content ul li.addFile a:link,.user_filesList_content ul li.addFile a:visited{ color:#666; }
+.user_filesList_content ul li.addFile a:hover{ background-color:#eee; border-color:#ccc; color:#333; }
+
+.uploaderBox{}
+.uploadList{padding: 20px; margin: 0;width:510px;height:312px;overflow:auto;}
+.uploadList .filelist:after {content: '';  display: block;  width: 0;  height: 0;  overflow: hidden; clear: both;}
+.uploadList .filelist li{width: 112px; height: 112px;border:1px solid #ccc; text-align: center; margin: 0 5px 20px 6px; position: relative; display: inline; float: left; overflow: hidden; font-size: 12px;}
+.uploadList .filelist li i{position:absolute;bottom:0;right:0;color:#c83e41;cursor:pointer;}
+.statusBar{height: 63px;border-top: 1px solid #dadada;padding: 0 20px;line-height: 63px; vertical-align: middle; position: relative;}
+.uploaderBox .uploadify-queue{display:none;}
+.uploaderBox .uploadBtn{margin-top:10px;background-color:#315a8b;width:120px;line-height:40px;text-align:center;background-image:none;border:none;color:#fff;text-indent: 0;}
+.uploaderBox .uploadify:hover .uploadify-button {background-color:#315a8b;background-image:none;}
+.uploaderBox .okBtn{margin:10px 0 0 10px;background-color:#315a8b;width:120px;line-height:40px;text-align:center;color:#fff;cursor:pointer;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius: 5px;}
+
+/*-S-借款页面介绍*/
+.borrowIntro{position:relative;background: #f5f5f5;border:1px solid #e9e9e9;min-height: 558px;}
+.borrowIntro h2{color: #333333;font-size: 20px;padding: 0 0 0 80px;line-height: 65px;}
+.borrowDetails{display: none;}
+.borrowIntro ul {padding: 0 35px;height: 64px;}
+.borrowIntro ul li{float: left;width: 204px;height: 64px;margin: 0 35px;line-height: 64px;border:1px solid #f5f5f5;border-width:1px 1px 0 1px;font-size: 16px;text-indent: 107px;background: url(../bg/borrow_png.png) no-repeat;cursor: pointer;}
+.borrowIntro ul li.hover{height: 65px;border:1px solid #e9e9e9;border-width:1px 1px 0 1px;}
+.borrowIntro ul li.offvouch  {background-position:   42px 8px;}
+.borrowIntro ul li.fast {background-position:   42px -127px;}
+.borrowIntro ul li.month {background-position:42px -268px;}
+.borrowIntro ul li.miaobiao {background-position:  42px -408px;}
+.borrowIntro ul li.offvouch.hover {background: #fff url(../bg/borrow_png.png) no-repeat 42px -570px;color: #5ec274;}
+.borrowIntro ul li.fast.hover {background: #fff url(../bg/borrow_png.png) no-repeat  42px -755px;color: #65b4ff;}
+.borrowIntro ul li.month.hover {background: #fff url(../bg/borrow_png.png) no-repeat   42px -939px;color: #ff5c60;}
+.borrowIntro ul li.miaobiao.hover {background: #fff url(../bg/borrow_png.png) no-repeat   41px -1096px;color: #ddb731;}
+.borrowIntro .borrowDetails{background: #fff;border-top: 1px solid #e9e9e9;padding: 64px 620px 64px 96px;height: 300px;}
+.borrowIntro .point {background:url(../bg/bespeakIntroDot.jpg) 0px 13px no-repeat;margin: 0 0 20px 0;padding: 0 0 0 20px;}
+.borrowIntro .point h3{font-size: 16px;color: #315a8b;line-height: 30px;}
+.borrowIntro .point p{line-height: 24px;}
+.borrowIntro .borrowTip{position: absolute;border-left:1px dashed #e9e9e9;right:130px;top:188px;padding:0 0 0 87px;width:280px;}
+.borrowIntro .button{display: inline-block;font-size:16px;width:110px; height:36px;line-height: 36px;text-align:center;color: #fff;border-radius: 5px; cursor: pointer;background: #2675b9;margin: 0 0 0 20px;}
+.borrowIntro .button:hover{text-decoration:none;background: #1f619a;}

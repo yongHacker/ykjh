@@ -1,0 +1,94 @@
+<div class="project-product">
+	<div class="t1">
+		永坤金行 — 黄金产品综合服务平台
+	</div>
+	<div class="t">
+		<p>
+			永坤金行——以黄金为基础媒介、以永坤金行（线下体验店+线上平台）为载体的相互循环、相互作用的经济集群；能够实现买金、卖金、租金、存金、资产增值。
+		</p>
+		<p>
+			等商业功能的服务中心平台；链接终端客户、代理商、珠宝商、金矿企业、黄金交易机构、银行金融机构等组织机构和个人的黄金价值生态系统。
+		</p>
+	</div>
+	<p style="text-align:center;">
+		&nbsp;
+	</p>
+	<p style="text-align:center;">
+		<img style="margin-top:20px;" src="{$t_url}/images/tixi4.png" />
+	</p>
+	<div class="t2">
+		商业模式
+	</div>
+	<div class="shangye">
+		<ul class="clearfix">
+			<li class="shangye_li">
+				<div class="shangye_img">
+					<img src="{$t_url}/images/jin1.png" />
+				</div>
+				<div class="shangye_t1">
+					黄金制品销售平台
+				</div>
+				<div class="shangye_t2">
+					知名品牌专版供货、典藏臻品、资产保值
+				</div>
+			</li>
+			<li class="shangye_li">
+				<div class="shangye_img">
+					<img src="{$t_url}/images/jin2.png" />
+				</div>
+				<div class="shangye_t1">
+					黄金租赁回购服务
+				</div>
+				<div class="shangye_t2">
+					闲置黄金资产盘活、租赁生息、回购变现
+				</div>
+			</li>
+			<li class="shangye_li">
+				<div class="shangye_img">
+					<img src="{$t_url}/images/jin3.png" />
+				</div>
+				<div class="shangye_t1">
+					黄金珠宝体验定制
+				</div>
+				<div class="shangye_t2">
+					虚拟现实体验科技、全息体验、高端定制
+				</div>
+			</li>
+			<li class="shangye_li">
+				<div class="shangye_img">
+					<img src="{$t_url}/images/jin4.png" />
+				</div>
+				<div class="shangye_t1">
+					线上平台线下体验
+				</div>
+				<div class="shangye_t2">
+					线上用户提金换购、海量用户、双向互动
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="t2">
+		永坤金行体验店
+	</div>
+	<div class="t3">
+		永坤金行体验店——永坤金行商业系统线下平台，以店商 + 电商 + 产品增值服务体验的O2O模式，从产品销售、增值服务、产业链整合等方面全方位构建黄金价值生态系统。
+	</div>
+	<table style="margin-top:30px;margin-bottom:15px;margin-left:auto;margin-right:auto;">
+		<tbody>
+			<tr>
+				<td>
+					<img src="{$t_url}/images/jin6.png" />
+				</td>
+				<td>
+					<img style="margin-left:40px;" src="{$t_url}/images/jin7.png" border="0" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="t3">
+		永坤金行已于深圳、杭州、温州、绍兴、金华、永康、苏州、盐城、徐州、福州、青岛、恩施、鄂尔多斯。
+	</div>
+	<p style="text-align:center;">
+		<img style="margin-top:30px;" src="{$t_url}/images/jin8.jpg" />
+	</p>
+</div>

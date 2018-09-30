@@ -1,0 +1,84 @@
+﻿{margin:0;padding:0;list-style:none;}
+
+img{border:0;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#1974A1;}
+/* fullSlide */
+.fullSlide{width:100%;position:relative;height:416px;background:#f6f5f6;border:0;}
+.fullSlide .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+.fullSlide .bd ul{width:100% !important;}
+.fullSlide .bd li{width:100% !important;height:416px;overflow:hidden;text-align:center;}
+.fullSlide .bd li a{display:block;height:416px;}
+
+.fullSlide .hd{width:100%;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;}
+.fullSlide .hd ul{text-align:center;}
+.fullSlide .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:42px;height:2px;margin:3px;overflow:hidden;background:#000;filter:alpha(opacity=50);opacity:0.5;line-height:999px;}
+.fullSlide .hd ul .on{background:#f00;}
+
+
+.fullSlide .prev,.fullSlide .next{display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:10%;width:40px;height:60px;background:url(../images/slider-arrow.png) -126px -137px #000 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;}
+.fullSlide .next{left:auto;right:10%;background-position:-6px -137px;}
+
+
+.jinh{ width:960px; margin:0 auto; padding-top:50px; padding-bottom:302px;}
+.jinh_one{font-size:26px;
+color:#282828;text-align:; margin-top:30px;height:30px; text-align:center;
+line-height:30px;
+background: url(../images/n2.png) no-repeat center;}
+
+
+.jinh_two{ text-align:center;
+font-size:18px;
+color:#8f8f8f; margin-top:12px;}
+.jinh_th{ padding-left:20px; padding-right:20px;}
+.jinh .imgl{ width:160px; margin-left:35px; margin-right:35px; display:block; float:left; margin-top:30px;}
+.jinh .imgleft{ width:160px; text-align:center;}
+.jinh .imgleft_name{font-size:14px;color:#4a4a4a; margin-top:10px; }
+.jinh .imgleft_one{ font-size:16px; color:#8F8F8F; margin-top:15px; text-align:center; line-height:16px; letter-spacing:3.5px;}
+.jinh .imgleft_two{ font-size:16px; color:#8F8F8F; margin-top:6px; text-align:center; line-height:16px; letter-spacing:2.7px;}
+
+
+.shic{ width:100%; height:710px; background-color:#FFFFFF; border:1px solid #FFFFFF; padding-top:80px;}
+.shic_q{ width:960px; margin:0 auto;}
+.shic_img{ background:url(../images/n7.png); width:387px; height:328px;  float: right;}
+.shic_t{width:430px; float:left;margin-left:20px;}
+.shic_t1{font-size:24px;color:#282828; margin-top:100px;}
+.shic_t2{font-size:14px;color:#4a4a4a; margin-top:15px; line-height:24px; text-indent:2em;}
+.shic_t3{font-size:14px;color:#4a4a4a; margin-top:10px;line-height:20px;text-indent:2em;}
+
+.hezuo{ width:100%; border-top:1px solid #EFEFEF; margin-top:70px; height:260px; margin-top:420px;}
+.hezuo_con{ width:960px; margin:0 auto;}
+.hezuo_net{ padding-left:20px; padding-right:20px;}
+.hezuo_img{font-size:18px;color:#4c4c4c; background:url(../images/n8.png) no-repeat left center;  height:58px; padding-left:162px; line-height:60px;}
+.hezuo .img2{ width:180px; height:42px; display:block; float:left; margin-left:20px; margin-right:20px;margin-top:50px;}
+.hezuo .img3{ width:180px; height:42px; display:block; float:left; margin-left:20px; margin-right:20px;margin-top:20px;}
+body,td,th {
+   	font-family:"微软雅黑",Arial, Helvetica,Tahoma,"Hiragino Sans GB",SimSun,Heiti,sans-serif;
+    color: #111111;
+	
+}
+
+
+
+
+.welcom-yongshen{float:left; font-size:16px; line-height:42px;color:#FFFFFF;}
+
+.zhaoshang-tel{float:right; line-height:42px;}
+
+.zhaoshang-phone-title{font-size: 14px;color:#FFFFFF;line-height: 19px;}
+.zhaoshang-phone{font-size: 16px;color:#FFFFFF;line-height: 21px;font-weight: bold;}
+
+.tel-logo{float:right; line-height:42px;margin-right: 5px;}
+.tel-logo img{margin-bottom: -4px}
+.header_con{  width:1020px; padding-left:60px; margin:auto; height:98px; line-height:98px; background-color: #FFFFFF;}
+
+
+.logo{ margin-top:18px; float:left; padding-right:56px;}
+
+.caa { line-height:98px;}
+.caa li{ display:block;float:left; margin-left:15px;}
+.caa li a{ text-decoration:none;line-height:22px; color:#282828; font-size:16px; background-color:#FFFFFF; border:1px solid #FFFFFF; padding:6px 14px; border-radius:20px;}
+.caa li a:hover{background:#EF4242; color:#FFFFFF;border:1px solid #EF4242;}
+.caa li.selected a{background:#EF4242; color:#FFFFFF;border:1px solid #EF4242;}
+
+

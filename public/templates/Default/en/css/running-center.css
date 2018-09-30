@@ -1,0 +1,186 @@
+.a1{
+	
+font-size:16px;
+color:#000000;
+letter-spacing:0px;
+text-align:left;margin-left:15px; 
+line-height:30px;
+margin-top:10px;
+}
+	
+	      .bannerbox {
+            width:100%;
+            position:relative;
+            overflow:hidden;
+            height:252px;
+        }
+        .banner {
+            width:1920px; 
+            position:absolute;
+            left:50%;
+            margin-left:-960px;
+        }
+		
+.jinright{float: right;width: 706px;height: 100%; padding-bottom:50px;background:#FFFFFF;border:1px solid #e8e8e8;}
+
+
+.t1{font-size:24px;color:#d02121;text-align:left; margin-left:24px; margin-top:30px;height:30px;line-height:35px;padding-left:19px;background: url(../image/r1.png) no-repeat left center;}
+
+
+.t2{ font-size:18px; color:#000000; background:url(../image/jin5.png) no-repeat left center; margin-left:24px; padding-left:14px; margin-top:35px; margin-bottom:5px;}
+.t{font-size:14px;line-height:19px;color:#282828;letter-spacing:0px;text-align:left; margin-right:50px; margin-left:24px; margin-top:15px;text-indent:2em;}
+
+.shangye_li{ display:block; margin-top:15px; float:left;}
+.shangye_img{ float:left; margin-left:44px;}
+.shangye_t1{ font-size:16px; color:#4A4A4A; margin-left:139px; padding-top:16px;}
+.shangye_t2{ font-size:14px; width:600px; color:#8F8F8F; margin-top:10px; margin-left:139px;}
+
+
+a img{border:none}
+.testTXT{
+	
+font-size:16px;
+color:#4a4a4a;
+letter-spacing:0px;
+text-align:justify; margin-left:50px; margin-top:42px;
+height:22px;
+line-height:20px;
+padding-left:22px;
+background: url(../image/address.png) no-repeat left center
+}
+
+.company-name{
+font-size:16px;
+line-height:21px;
+color:#262626;
+letter-spacing:0px;
+text-align:left; margin-left:50px; margin-top:35px;}
+
+.company-description{
+	font-size:14px;
+	color:#4a4a4a;
+	letter-spacing:0px;
+	line-height:19px;
+	text-align:left; margin-left:24px;margin-top:15px;margin-right:24px; margin-right:50px; text-indent:2em;
+}
+
+.company-address{
+font-size:14px;
+color:#4a4a4a;
+letter-spacing:0px;
+text-align:left;margin-left:50px; margin-top:5px;}
+
+
+.company-container{
+	width: 100%;
+	height: 390px;
+	margin-top: 35px;
+	
+}
+.company-map1{
+	width: 306px;
+	height: 190px;
+	float: left;
+	background-image: url(images/map_zg.png);
+	background-size: 100% 100%;
+	margin-left: 24px;
+}
+
+.company-map2{
+	width: 306px;
+	height: 190px;
+	float: left;
+	background-image: url(images/map_zj.png);
+	background-size: 100% 100%;
+	margin-left: 24px;
+}
+
+.company-map3{
+	width: 306px;
+	height: 190px;
+	float: left;
+	background-size: 100% 100%;
+	margin-left: 24px;
+	background-image: url(images/map_js.png);
+}
+
+.company-map4{
+	width: 306px;
+	height: 190px;
+	float: left;
+	background-size: 100% 100%;
+	margin-left: 24px;
+	background-image: url(images/map_nmg.png);
+}
+.compay-detail{
+	float: left;
+	margin-left: 20px;
+	width: 300px;
+	height: 190px;
+}
+
+.phone-container{
+	width: 300px;
+	height: 22px;
+	line-height: 22px;
+
+	
+}
+.phone-icon{
+	width: 18px;
+	height: 14px;
+	background-image: url(images/phone.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-top: 4px;
+}
+
+.phone-title{
+	float:left;
+	color: #4A4A4A;
+	font-size: 16px;
+	line-height: 22px;
+		margin-left: 10px;
+	
+	
+}
+
+.job-icon{
+	height: 18px;
+	width: 14px;
+	background-image: url(images/address.png);
+	background-size: 100% 100%;
+	float: left;
+}
+
+.phone{
+	color: #9B9B9B;
+	line-height: 19px;
+	font-size: 14px;
+	margin-left: 2px;
+	
+}
+
+.job-container{
+	width: 300px;
+	height:22px;
+	line-height: 22px;
+	margin-top: 15px;
+	
+}
+
+.job-title{
+	float: left;
+
+	font-size: 16px;
+	margin-left:10px;
+	line-height: 19px;
+	
+	
+}
+
+.address{
+	font-size: 14px;
+	line-height: 19px;
+	color: #9B9B9B;
+}
